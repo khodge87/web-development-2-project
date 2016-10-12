@@ -3,13 +3,39 @@
 <title>Clementine Cake</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
 <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 <style>
-body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
-.w3-navbar,h1,button {font-family: "Montserrat", sans-serif}
-.fa-anchor,.fa-coffee {font-size:200px}
+
+@media screen and (min-width:1224px) {
+}
+
+@media screen and (min-device-width:320px) and (max-device-width:568px) {
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+}
+
+
+
+
+h1 {
+font-family: AnnMArker;
+}
+
+ul, h5, h6 {
+font-family: Planes;
+}
+
+@font-face {
+	font-family: Planes;
+	src: url(planes.ttf);
+}	
+
+@font-face {
+	font-family: Ann Marker;
+	src: url(annmarker.ttf);
+}	
+
 
 .bgimg-1 {
     background-image: url("clementine.jpg");
@@ -18,6 +44,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     min-width: 400px;
     background-size: cover;
 } 
+
+ul.a {list-style-type: disc;}
 	
 	.
 </style>
@@ -35,15 +63,16 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <img class="w3-half w3-round-xlarge" src="the great salt lake.jpg">
 </div>
 
-<div class="w3-half">
-<h6>Welcome to my website. I am a student web developer, <br>
-experimenting with designing sites and loving it. <br>
-Quirky. Weird. Loud. Nerd. Movie Addict. <br>
-Currently working on a project. <br>
-I'm inspired by everyday life, film, my dogs, family, and the universe. <br>
-I take pictures with an iPhone because I don't have a fancy camera, but they still look great. :) <br>
-Learning JavaScript, jQuery, w3.CSS. Pretty good with HTML and CSS. <br>
-Hoping to add much more to the list. Stay awesome.</h6>
+<div class="w3-half w3-text-black">
+<ul class="a">
+<li>Welcome to my website. I am a student web developer,
+experimenting with designing sites.</li>
+<li>Quirky. Weird. Loud. Nerd. Movie Addict. </li>
+<li>Currently working on a project. </li>
+<li>I'm inspired by everyday life, film, my dogs, family, and the universe. </li>
+<li>Photos taken with an iPhone 5s.</li>
+<li>Learning JavaScript, jQuery, w3.CSS. Pretty good with HTML and CSS.</li>
+</ul>
 	</div>
   </div>
 </div>
@@ -51,9 +80,9 @@ Hoping to add much more to the list. Stay awesome.</h6>
 <!--my work section-->
 <div class="w3-margin-top w3-row-padding w3-padding-128 w3-container w3-deep-orange">
   <div class="w3-content">
-    <div class="w3-twothird">
+    <div class="w3-twothird w3-text-black">
       <h1>Works</h1>
-      <h5 class="w3-padding-32">Websites & Photos</h5>
+      <h5 class="w3-padding-32 w3-text-white">Websites & Photos</h5>
 
     </div>
 
@@ -80,15 +109,15 @@ Hoping to add much more to the list. Stay awesome.</h6>
 <!--contact section-->
 <div class="w3-margin-top w3-row-padding w3-padding-128 w3-container w3-teal">
   <div class="w3-content">
-    <div class="w3-twothird">
+    <div class="w3-twothird w3-text-black">
       <h1>Contact Me</h1>
-      <h5 class="w3-padding-32">
+      <h5 class="w3-padding-32 w3-class-black">
       <i class="fa fa-envelope">   khodge09@baker.edu</i></h5>
       
     </div>
 
     <div class="w3-third w3-center">
-      <img src="ashland 3.jpg" class="w3-round-xxlarge"  alt="h1" width="130" height="130">
+      <img src="ashland3.jpg" class="w3-round-xxlarge"  alt="h1" width="130" height="130">
     </div>
   </div>
 </div>

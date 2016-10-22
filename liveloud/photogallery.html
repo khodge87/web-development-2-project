@@ -2,80 +2,232 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail1").click(function(){
+	alert("Sunset Picture Taken Along A Highway");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail2").click(function(){
+	alert("We Took The Desolation Trail - SLC, Utah");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail3").click(function(){
+	alert("Amazing View After Crazy Hike");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail4").click(function(){
+	alert("Mountain View in Ashland, OR");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail5").click(function(){
+	alert("Lake Blanche in Utah");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail6").click(function(){
+	alert("Buzz, German, Dayna, & Roxy");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail7").click(function(){
+	alert("Sandy Golf Course, Sandy Utah");
+	});
+});	
+</script>
+
+<script>
+$(document).ready(function(){
+	$(".img-thumbnail8").click(function(){
+	alert("Talon Rollercoaster at Dorney Park");
+	});
+});	
+</script>
+</head>
 <style>
 
-body {background-color: #0f2c33;
+@media screen and (min-width:1224px) {
 }
 
-img, w3-half {
-	background-color: #0f2c33;
-	padding: 8px;
+@media screen and (min-device-width:320px) and (max-device-width:568px) {
+}
 
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+}
+
+h1 {
+font-family: AnnMArker;
+color: yellow;
+font-size: 60px;
+}
+
+
+
+@font-face {
+	font-family: Ann Marker;
+	src: url(annmarker.ttf);
 }	
 
-header {
-	padding: 30px;
-	background-color: #0f2c33;
-}	
+p {
+font-family: Planes;
+}
 
-footer, .w3-black {
-	display: block;
-	margin: 0 auto;
-	padding: 15px;
-	background-color: #000000;
-}			
-	
+@font-face {
+	font-family: Planes;
+	src: url(planes.ttf);
+}
+
+
+body {background-color: #162427;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f2c33;
+    padding: 30px;
+}
+
+li {
+    float: left;
+}
 
 li a {
     display: block;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+a:hover:not(.active) {
     background-color: #0f2c33;
 }
 
-.active {
+a:hover {
     background-color: #0f2c33;
     color: green;
 }
 
-li  {
-	background-color: #0f2c33;
-}	
+footer, .w3-black {
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #000000;
+}<style>
 
-.w3-xxlarge {
-	line-height: 200%;
-	font-family: Photographs;
-	letter-spacing: 2px;
-}	
-
-@font-face {
-	font-family: Photographs;
-	src: url(photographs.ttf);
+@media screen and (min-width:1224px) {
 }
 
-p {
-	color: white;
+@media screen and (min-device-width:320px) and (max-device-width:568px) {
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:1024px) {
+}
+
+h1 {
+font-family: AnnMArker;
+color: yellow;
+font-size: 60px;
+}
+
+
+
+@font-face {
+	font-family: Ann Marker;
+	src: url(annmarker.ttf);
 }	
-	
+
+p {
+font-family: Planes;
+}
+
+@font-face {
+	font-family: Planes;
+	src: url(planes.ttf);
+}
+
+
+body {background-color: #162427;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f2c33;
+    padding: 30px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+a:hover:not(.active) {
+    background-color: #0f2c33;
+}
+
+a:hover {
+    background-color: #0f2c33;
+    color: green;
+}
+
+footer, .w3-black {
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #000000;
+}
 
 </style>
 
-
-<header>
-
-<ul class="w3-navbar w3-center">
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="home page.html">Home</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="#">Mobile Photography</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-text-orange" href="home page.html">CLEMENTINE CAKE</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="projects page.html">Projects</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="#">Contact</a></li>
+<div class="container">
+  <div class="page-header">
+<ul>
+  <li style="width:20%"><a href="home page2.html">Home</a></li>
+  <li style="width:20%"><a href="photogallery.html">Mobile Photography</a></li>
+  <li style="width:20%"><a href="#">CLEMENTINE CAKE</a></li>
+  <li style="width:20%"><a href="projects page.html">Projects</a></li>
+  <li style="width:20%"><a href="contact page.html">Contact</a></li>
 </ul>
 </div>
-</header>
 
 <body>
 <img src="on the balcony.jpg" style="width:100%" height="700">
@@ -84,42 +236,41 @@ p {
 <div class="w3-container">
 <div class="container w3-half w3-padding-0">
 
-<a target="_blank" href="sunset.jpg">
-<img src="sunset.jpg" class="img-thumbnail" alt="sunset" width="496" height="370">
-</a>
 
-<a target="_blank" href="desolation trail.jpg">
-<img src="desolation trail.jpg" class="img-thumbnail" alt="epic" width="496" height="661">
-</a>
+<img src="sunset.jpg" class="img-thumbnail1" alt="sunset" width="496" height="370">
 
-<a target="_blank" href="worth it.jpg">
-<img src="worth it.jpg" class="img-thumbnail" alt="great hike" width="496" height="496">
-</a>
 
-<a target="_blank" href="ashland3.jpg">
-<img src="ashland3.jpg" class="img-thumbnail" alt="walk view" width="496" height="372">
-</a>
+
+<img src="desolation trail.jpg" class="img-thumbnail2" alt="epic" width="496" height="661">
+
+
+
+<img src="worth it.jpg" class="img-thumbnail3" alt="great hike" width="496" height="496">
+
+
+<img src="ashland3.jpg" class="img-thumbnail4" alt="walk view" width="496" height="372">
+
 
 </div>
 
 <div class="w3-container">
 <div class="container w3-half w3-padding-0">
 
-<a target="_blank" href="lake blanche.jpg">
-<img src="lake blanche.jpg" class="img-thumbnail" alt="lake" width="496" height="372">
-</a>
 
-<a target="_blank" href="my kids.jpg">
-<img src="my kids.jpg" class="img-thumbnail" alt="babies" width="496" height="496">
-</a>
+<img src="lake blanche.jpg" class="img-thumbnail5" alt="lake" width="496" height="372">
 
-<a target="_blank" href="sandy golf course.jpg">
-<img src="sandy golf course.jpg" class="img-thumbnail" alt="golfing" width="496" height="372">
-</a>
 
-<a target="_blank" href="talon.jpg">
-<img src="talon.jpg" class="img-thumbnail" alt="sunset" width="496" height="661">
-</a>
+
+<img src="my kids.jpg" class="img-thumbnail6" alt="babies" width="496" height="496">
+
+
+
+<img src="sandy golf course.jpg" class="img-thumbnail7" alt="golfing" width="496" height="372">
+
+
+
+<img src="talon.jpg" class="img-thumbnail8" alt="sunset" width="496" height="661">
+
 </div>
  </div>
    </div>

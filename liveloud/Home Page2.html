@@ -2,6 +2,10 @@
 <html>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
 <style>
 
 @media screen and (min-width:1224px) {
@@ -35,68 +39,72 @@ font-family: Planes;
 	src: url(planes.ttf);
 }
 
+
 body {background-color: #162427;
-}	
+}
 
-header {
-	padding: 30px;
-	background-color: #0f2c33;
-}	
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #0f2c33;
+    padding: 30px;
+}
 
-footer, .w3-black {
-	display: block;
-	margin: 0 auto;
-	padding: 15px;
-	background-color: #000000;
+li {
+    float: left;
 }
 
 li a {
     display: block;
     color: white;
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+a:hover:not(.active) {
     background-color: #0f2c33;
 }
 
-.active {
+a:hover {
     background-color: #0f2c33;
     color: green;
 }
 
-li  {
-	background-color: #0f2c33;
-}	
-
+footer, .w3-black {
+	display: block;
+	margin: 0 auto;
+	padding: 30px;
+	background-color: #000000;
+}
+    
 </style>
 
-
-<header>
-<div class="w3-container">
-<ul class="w3-navbar w3-center">
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="home page.html">Home</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="photogallery.html">Mobile Photography</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-text-orange" href="#">CLEMENTINE CAKE</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="projects page.html">Projects</a></li>
-  <li style="width:20%"><a class="w3-hover-none w3-hover-text-green" href="contact page.html">Contact</a></li>
+<div class="container">
+  <div class="page-header">
+<ul>
+  <li style="width:20%"><a href="home page2.html">Home</a></li>
+  <li style="width:20%"><a href="photogallery.html">Mobile Photography</a></li>
+  <li style="width:20%"><a href="#">CLEMENTINE CAKE</a></li>
+  <li style="width:20%"><a href="projects page.html">Projects</a></li>
+  <li style="width:20%"><a href="contact page.html">Contact</a></li>
 </ul>
-</div>
-</header>
+ </div>
 
 
 <body>
 
 
-<div class="w3-container">
-<div class="container w3-half w3-padding-16">
+<div class="w3-row w3-border">
+	<div class="w3-container w3-half w3-padding-16">
 <img src="the great salt lake.jpg" class="img-thumbnail" alt="SL" width="552" height="489">
 </div>
 
-<div class="w3-container">
-<div class="container w3-half w3-text-white w3-padding-16 ">
-<center><h1> LIVE LOUD</h1></center>
+
+<div class="w3-container w3-text-white w3-half">
+<h1> LIVE LOUD</h1>
 <p>Welcome to my website. I am a student web developer<br>
 experimenting with designing websites.<br><br>
 I'm inspired by life, movies, family, and the universe. <br><br>

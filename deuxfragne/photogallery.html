@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 <head>
+<title>Photo Gallery</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="w3.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="js/jquery-3.1.1.min.js"></script>
@@ -69,7 +70,7 @@ $(document).ready(function(){
 	});
 });	
 </script>
-</head>
+
 <style>
 
 @media screen and (min-width:1224px) {
@@ -201,7 +202,9 @@ li a {
 }
 
 a:hover:not(.active) {
-    background-color: #0f2c33;
+	background-color: #0f2c33;
+	font-style: normal;
+	font-weight: 400;
 }
 
 a:hover {
@@ -218,22 +221,24 @@ footer, .w3-black {
 
 </style>
 
-<div class="container">
-  <div class="page-header">
+
+  
+
+
 <ul>
-  <li style="width:20%"><a href="home page2.html">Home</a></li>
+  <li style="width:20%"><a href="homepage2.html">Home</a></li>
   <li style="width:20%"><a href="photogallery.html">Mobile Photography</a></li>
   <li style="width:20%"><a href="#">CLEMENTINE CAKE</a></li>
-  <li style="width:20%"><a href="projects page.html">Projects</a></li>
-  <li style="width:20%"><a href="contact page.html">Contact</a></li>
+  <li style="width:20%"><a href="projectspage.html">Projects</a></li>
+  <li style="width:20%"><a href="contactpage.html">Contact</a></li>
 </ul>
-</div>
 
-<body>
-<img src="on the balcony.jpg" style="width:100%" height="700">
+
+
+<img src="onthebalcony.jpg" alt="balcony" style="width:100%" height="700">
 <div class="w3-display-middle w3-xxlarge w3-text-navy">MOBILE PHOTOGRAPHY</div>
 
-<div class="w3-container">
+
 <div class="container w3-half w3-padding-0">
 
 
@@ -241,11 +246,11 @@ footer, .w3-black {
 
 
 
-<img src="desolation trail.jpg" class="img-thumbnail2" alt="epic" width="496" height="661">
+<img src="desolationtrail.jpg" class="img-thumbnail2" alt="epic" width="496" height="661">
 
 
 
-<img src="worth it.jpg" class="img-thumbnail3" alt="great hike" width="496" height="496">
+<img src="worthit.jpg" class="img-thumbnail3" alt="great hike" width="496" height="496">
 
 
 <img src="ashland3.jpg" class="img-thumbnail4" alt="walk view" width="496" height="372">
@@ -253,32 +258,31 @@ footer, .w3-black {
 
 </div>
 
-<div class="w3-container">
+
 <div class="container w3-half w3-padding-0">
 
 
-<img src="lake blanche.jpg" class="img-thumbnail5" alt="lake" width="496" height="372">
+<img src="lakeblanche.jpg" class="img-thumbnail5" alt="lake" width="496" height="372">
 
 
 
-<img src="my kids.jpg" class="img-thumbnail6" alt="babies" width="496" height="496">
+<img src="mykids.jpg" class="img-thumbnail6" alt="babies" width="496" height="496">
 
 
 
-<img src="sandy golf course.jpg" class="img-thumbnail7" alt="golfing" width="496" height="372">
+<img src="sandygolfcourse.jpg" class="img-thumbnail7" alt="golfing" width="496" height="372">
 
 
 
 <img src="talon.jpg" class="img-thumbnail8" alt="sunset" width="496" height="661">
 
 </div>
- </div>
-   </div>
+
+  
 
 <footer>
 <img src="greenbean2.jpg" class="w3-center w3-black" alt="logo" width="150" height="160">
 </footer>
 
-
-  </body>
-  </html>
+</head>
+</html>

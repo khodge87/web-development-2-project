@@ -1,12 +1,13 @@
 var $ = function (id) {
 	return document.getElementById(id);
 }
+
 var contactMe = function () {
 	var firstName = $("first_name").value;
 	var lastName = $("last_name").value;
 	var isValid = true;
 	
-	if (firstName == "") {
+	if($("first_name").value == "") {
 		$("first_name_error").firstChild.nodeValue = 
 			"Field Required.";
 		isValid = false;
@@ -14,7 +15,7 @@ var contactMe = function () {
 		$("first_name_error").firstChild.nodeValue = "";
 	}				
 	
-		if (lastName == "") {
+		if($("last_name").value == "") {
 		$("last_name_error").firstChild.nodeValue = 
 			"Field Required.";
 		isValid = false;
@@ -34,6 +35,7 @@ var contactMe = function () {
 		$("contact_me").submit();
 	}			 	
 }
+
 window.onload = function () {
 	$("contact_me").onclick = contactMe;
 	$("email_address").focus();

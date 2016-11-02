@@ -3,7 +3,6 @@
 <head>
 <title>Photo Gallery</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="w3.css">
 <link rel="stylesheet" type="text/css" href="media queries.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -74,11 +73,21 @@ $(document).ready(function(){
 </script>
 
 <style>
+.img-thumbnail1, .img-thumbnail2, .img-thumbnail3, .img-thumbnail4 {
+	padding:10px;
+}
+
+.img-thumbnail5, .img-thumbnail6, .img-thumbnail7, .img-thumbnail8 {
+	padding:10px;
+}
 
 h1 {
-font-family: AnnMArker;
-color: yellow;
-font-size: 60px;
+	font-family: sonsie-one;
+	color: yellow;
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
 }
 
 
@@ -115,18 +124,23 @@ li a {
 	padding-left: 34px;
 	padding-bottom: 14px;
 	text-decoration: none;
+	font-family: sonsie-one;
 }
 
+a:hover(.active) {
+	color: orange;
+	font-family: sonsie-one;
+}
 
 a:hover {
     background-color: #0f2c33;
     color: green;
+	font-family: sonsie-one;
 }
 
 footer, .w3-black {
 	display: block;
-	margin: 0 auto;
-	padding: 30px;
+	padding: 20px;
 	background-color: #000000;
 }
 
@@ -149,17 +163,24 @@ a:hover:not(.active) {
 	background-color: #0f2c33;
 	font-style: normal;
 	font-weight: 400;
+	font-family: sonsie-one;
 }
 
 </style>
 
+
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/sonsie-one:n4:default;sevillana:n4:default.js" type="text/javascript"></script>
+
+
+<meta charset="UTF-8">
 
 <div class="container">
 <div class="page-header">
 <ul>
   <li><a href="index.html">Home</a></li>
   <li><a href="photogallery.html">Mobile Photography</a></li>
-  <li><a href="#">CLEMENTINE CAKE</a></li>
   <li><a href="projectspage.html">Projects</a></li>
   <li><a href="contactpage.html">Contact</a></li>
 </ul>
@@ -169,53 +190,52 @@ a:hover:not(.active) {
 
 
 
-<h1>MOBILE PHOTOGRAPHY</h1>
+<h1>GALLERY</h1>
 
-<img src="onthebalcony.jpg" alt="balcony" style="width:100%" height="700">
-
-<div class="container w3-half w3-padding-0">
-
-
-<img src="sunset.jpg" class="img-thumbnail1" alt="sunset" width="496" height="370">
+<img src="onthebalcony.jpg" alt="balcony" style="width:100%" height="600">
 
 
 
-<img src="desolationtrail.jpg" class="img-thumbnail2" alt="epic" width="496" height="661">
+
+<img src="sunset.jpg" class="img-thumbnail1" alt="sunset" width="400" height="370">
 
 
 
-<img src="worthit.jpg" class="img-thumbnail3" alt="great hike" width="496" height="496">
-
-
-<img src="ashland3.jpg" class="img-thumbnail4" alt="walk view" width="496" height="372">
-
-
-</div>
-
-
-<div class="container w3-half w3-padding-0">
-
-
-<img src="lakeblanche.jpg" class="img-thumbnail5" alt="lake" width="496" height="372">
+<img src="desolationtrail.jpg" class="img-thumbnail2" alt="epic" width="450" height="370">
 
 
 
-<img src="mykids.jpg" class="img-thumbnail6" alt="babies" width="496" height="496">
+<img src="worthit.jpg" class="img-thumbnail3" alt="great hike" width="450" height="370">
+
+
+<img src="ashland3.jpg" class="img-thumbnail4" alt="walk view" width="450" height="370">
 
 
 
-<img src="sandygolfcourse.jpg" class="img-thumbnail7" alt="golfing" width="496" height="372">
 
 
 
-<img src="talon.jpg" class="img-thumbnail8" alt="sunset" width="496" height="661">
 
-</div>
+
+<img src="lakeblanche.jpg" class="img-thumbnail5" alt="lake" width="450" height="370">
+
+
+<img src="mykids.jpg" class="img-thumbnail6" alt="babies" width="450" height="370">
+
+
+
+<img src="sandygolfcourse.jpg" class="img-thumbnail7" alt="golfing" width="450" height="370">
+
+
+
+<img src="talon.jpg" class="img-thumbnail8" alt="sunset" width="450" height="370">
+
+
 
   
 
 <footer>
-<img src="greenbean2.jpg" class="w3-center w3-black" alt="logo" width="150" height="160">
+<img src="greenbean2.jpg" alt="logo" width="100" height="100">
 </footer>
 
 </head>
